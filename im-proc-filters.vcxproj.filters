@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{1a195bd9-4153-4578-815d-41c24479807a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6d13590a-9bf0-4807-94bb-850bd13e4964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\bilateral.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\canny.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gabor.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gauss.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gradient.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imageformats.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imageio.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\median.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mirror.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mse_psnr.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\pixelformats.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rotate.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sobel.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ssim.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vessels.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imageio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
